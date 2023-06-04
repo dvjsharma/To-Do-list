@@ -1,0 +1,56 @@
+body{
+    background-color: #edf3f4;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 40px;
+}
+.welcome-title{
+    margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+}
+.welcome-input{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.welcome-button{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#welcome_title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:normal;
+}
+#welcome_input{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50%;
+    background: transparent;
+}
+#welcome_input:focus{
+    border: 5px solid #10a37f;
+}
+#welcome_button{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:#10a37f;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    display: inline-flex;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    pointer-events: auto;
+}
