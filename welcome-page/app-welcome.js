@@ -8,6 +8,6 @@ function StoreUser(){
     }
     localStorage.setItem('usr',username.value);
     // console.log(UserName);
-    window.location.href="../index.html";
+    window.location.href="landing.html";
     return;
 };
