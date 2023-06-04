@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background-color: #a18aff;
+    background-color: #dbe7e9;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 .right-panel {
     width: 70%;
     height: calc(100%-20px);
-    background-color: #a18aff;
+    background-color: #bfd3d6;
     border-radius: 10px;
     padding: 20px;
 }
@@ -58,7 +58,7 @@ body {
 .left-panel .left-panel-pane .img img {
     width: 200%;
     border-radius: 50%;
-    border: 3px solid #a18aff;
+    border: 3px solid #bfd3d6;
 }
   
 .left-panel .left-panel-pane .name {
@@ -72,7 +72,7 @@ body {
     margin: 20px 0;
 }
 .USerNAme{
-    color: aqua;;   
+    color: #124a53;   
      padding:0;
      font-size: x-large;
      margin-top: 10px;
@@ -84,7 +84,7 @@ body {
 hr{
     margin: auto 5px;
     border: 0;
-    border-top: 2px solid #a18aff;
+    border-top: 2px solid #bfd3d6;
 }
 p{
     font-family: 'Josefin Sans', sans-serif;
@@ -144,12 +144,14 @@ p{
     align-items:center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: x-large;
-    color: white;
+    color: #124a53;
+    font-weight: bold;
 }
 #header-text{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
-    color: white;
+    color: #124a53;
+    /* font-weight: bold; */
 }
 .right-panel{
     display: flex;
@@ -244,4 +246,7 @@ p{
 }
 .resp{
     width: 100%;
+}
+.wrap{
+    line-height: 130%;
 }
