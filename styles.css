@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+body {
+    background-color: #a18aff;
+}
+
+.container {
+    display: flex;
+    width: calc(100% - 150px); 
+    height: calc(100% - 80px); 
+    margin: 40px 75px;
+    border: 9px solid white;
+    border-radius: 15px;
+}
+
+.left-panel {
+    width: 30%;
+    height: calc(100%-20px);
+    background-color: white;
+    padding: 20px;
+}
+
+.right-panel {
+    width: 70%;
+    height: calc(100%-20px);
+    background-color: #a18aff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.img{
+    width: 20%;
+    height: auto;
+}
+.name{
+    width: 80%;
+    height: auto;
+    margin-left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.left-panel .left-panel-pane {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+.left-panel .left-panel-pane .img {
+    width: 20%;
+    text-align: center;
+}
+  
+.left-panel .left-panel-pane .img img {
+    width: 200%;
+    border-radius: 50%;
+    border: 3px solid #a18aff;
+}
+  
+.left-panel .left-panel-pane .name {
+    width: 80%;
+    padding-left: 10px;
+}
+.left-panel-pane{
+    display: flex;
+}
+.left-panel hr {
+    margin: 20px 0;
+}
+.USerNAme{
+    color: aqua;;   
+     padding:0;
+     font-size: x-large;
+     margin-top: 10px;
+     font-weight: bolder;
+}
+.do-it{
+    font-size: large;
+}
+hr{
+    margin: auto 5px;
+    border: 0;
+    border-top: 2px solid #a18aff;
+}

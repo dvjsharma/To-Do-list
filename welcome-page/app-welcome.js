@@ -6,6 +6,8 @@ function StoreUser(){
         alert("Oh please- don't tell me you got no name");
         return;
     }
+    localStorage.setItem('usr',username.value);
+    // console.log(UserName);
     window.location.href="../index.html";
     return;
-}
+};
