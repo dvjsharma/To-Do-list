@@ -48,7 +48,6 @@ const AddInputTask = () => {
         alert("Please complete already listed tasks duh")
     }
     checkbutton.addEventListener('click', ()=>{
-        // checkbutton.parentElement.style.textDecoration="line-through";
         const parent=checkbutton.parentElement;
         const chilg=parent.getElementsByClassName("div-task2");
         chilg[0].style.textDecoration="line-through";
@@ -56,6 +55,6 @@ const AddInputTask = () => {
     deletebutton.addEventListener('click', ()=>{
         deletebutton.parentElement.remove();
         return;
-    })
+    });
 }
 
