@@ -1,5 +1,5 @@
 ## To-Do-list
-Made this as a first project after learning CSS and JavaScript
+Made this as first project after learning CSS and JavaScript
 ### Screenshots
 
 ![Login-Screenshot](./img-src/Readme-src/Screenshot%20from%202023-06-05%2004-36-24.png)
